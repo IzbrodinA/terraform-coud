@@ -1,12 +1,12 @@
 terraform {
 
-#  cloud {
-#    organization = "Terraform-Aleksei-Izbrodin"
-#
-#    workspaces {
-#      name = "learn-terraform-cloud"
-#    }
-#  }
+  cloud {
+    organization = "Terraform-Aleksei-Izbrodin"
+
+    workspaces {
+      name = "learn-terraform-cloud"
+    }
+  }
 
   required_providers {
     aws = {
